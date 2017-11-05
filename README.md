@@ -2,9 +2,9 @@
 
 This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) Cygwin training materials,
 which provides guidance for using the Cygwin software, which is essentially a Linux-like environment running on Windows .
-The documentation is written for the layperson in order to encourage use of GeoJSON.
+The documentation is written for the layperson in order to encourage use of Cygwin.
 
-See the deployed [OWF / Learn GeoJSON](http://learn.openwaterfoundation.org/owf-learn-cygwin/) documentation.
+See the deployed [OWF / Learn Cygwin](http://learn.openwaterfoundation.org/owf-learn-cygwin/) documentation.
 
 ## Repository Contents ##
 
@@ -41,7 +41,7 @@ If the development environment is properly configured, edit and view content as 
 
 ## License ##
 
-The OWF Learn GeoJSON website content and examples are licensed under the
+The OWF Learn Cygwin website content and examples are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 ## Contributing ##
