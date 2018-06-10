@@ -23,9 +23,9 @@ The Cygwin installer is available on the following website:
 
 Select the setup program that is appropriate for the operating system.  For example, choose `setup-x86_64.exe` for Windows 64-bit.
 
-* If the software will only be used by a single user, save the setup program to a location that is visible to that user,
+* **Single user** - If the software will only be used by a single user, save the setup program to a location that is visible to that user,
 such as `C:\Users\xxx\Downloads\cygwin\setup-x86_64.exe`.
-* If the software will be used by multiple users on the computer that will be able to run the setup program,
+* **Multiple users** - If the software will be used by multiple users on the computer that will be able to run the setup program,
 save the setup program in a location that can be accessed by multiple users, such as `C:\Shared\Downloads\cygwin\setup-x86_64.exe.`
 The setup program may need to be moved from the default Downloads folder for the user.
 
@@ -44,21 +44,21 @@ The setup program does not tend to change much.**
 end of running the setup program but the program kept running as shown below and seemed to work.
 Running the program as administrator may avoid these errors.**
 
-![Setup](install-images/InstallWizard1.png)
+![Setup](images/InstallWizard1.png)
  
 Press ***Next >*** to continue.
 
-![Setup](install-images/InstallWizard2.png)
+![Setup](images/InstallWizard2.png)
 
 Press ***Next >*** to continue.  The root directory (below) is the directory under which all the Cygwin files will install.
 The default shown below is the default and will be accessible by multiple users on the computer.
 It is recommended to use the default.
 
-![Setup](install-images/InstallWizard3.png)
+![Setup](images/InstallWizard3.png)
 
 Press ***Next >*** to continue.
 
-![Setup](install-images/InstallWizard4.png)
+![Setup](images/InstallWizard4.png)
 
 Specify the package directory as shown above (this clearly indicates the 64-bit version) and press ***Next >***.
 Specify the location as follows:
@@ -68,14 +68,14 @@ save the setup program to a location like:  `C:\Shared\Downloads\cygwin\setup-x8
 * **Single user on a computer**:  If the software will only be used by a single user,
 save the setup program to a location like:  `C:\Users\xxx\Downloads\cygwin\setup-x86_64-setup-packages`.
 
-![Setup](install-images/InstallWizard5.png)
+![Setup](images/InstallWizard5.png)
 
 Accept the above defaults by pressing ***Next >***.  The next dialog (below) asks to select a mirror site.
 A site close to the local computer should be selected for best performance.  The following link lists available mirror sites:
 
 * [Cygwin Mirror Sites](https://cygwin.com/mirrors.html)
 
-![Setup](install-images/InstallWizard6.png)
+![Setup](images/InstallWizard6.png)
 
 For example, the site selected above is for Colorado locations.   However, mirrors change over time.
 Sites that have worked include the following, but sites need to be tested via the setup program:
@@ -84,7 +84,7 @@ Sites that have worked include the following, but sites need to be tested via th
 
 Press ***Next >*** to continue.  The following dialog will then be shown to illustrate available packages.
 
-![Setup](install-images/InstallWizard7.png)
+![Setup](images/InstallWizard7.png)
 
 By default Cygwin will install core software packages.  Use the package tree to expand and select desirable packages.
 Generally only the binary is needed.  The following are recommend for consideration in addition to the defaults for use
@@ -247,17 +247,17 @@ Note that it is possible to install only single programs or multiple selections 
 The installation process can take awhile so it may be helpful to complete these steps and work on other things while the install runs.
 Depending on what was selected, additional dependencies may be needed:
 
-![Setup](install-images/InstallWizard8.png)
+![Setup](images/InstallWizard8.png)
 
 Press ***Next >*** to continue downloading, including dependences.  The download process will start and will likely run for quite a while the first time.
 
-![Setup](install-images/InstallWizard9.png)
+![Setup](images/InstallWizard9.png)
 
 A warning might be shown like the following.  Take a note in case the component is actually needed but it may not be necessary for software that is used.
 Library dependencies tend to be more of an issue with graphical programs such as editors and can be installed separately if the initial attempt fails.
 Press ***OK*** to continue.
 
-![Error](install-images/LibraryError.png)
+![Error](images/LibraryError.png)
 
 At the end of the installation, there will be a prompt to add icons to the desktop and start menu.
 Adding to the menu is recommended and a desktop icon is convenient for starting shells.
@@ -274,9 +274,9 @@ The following warnings indicate that this has happened.
 The solution is typically to download the latest setup program from the Cygwin website as described at the beginning
 of this page, and then perform setup steps as usual.
 
-![ini version warning](install-images/ini-version-warning.png)
+![ini version warning](images/ini-version-warning.png)
 
-![setup version warning](install-images/setup-version-warning.png)
+![setup version warning](images/setup-version-warning.png)
 
 ## Updating Software ##
 

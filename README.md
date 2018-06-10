@@ -64,4 +64,5 @@ Steve Malers, Open Water Foundation (@smalers)
 The following release notes indicate the update history for documentation, with GitHub repository issue indicated,
 if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
 
+* 2018-06-09 - clean up file organization, add troubleshooting and development environment pages.
 * 2017-11-04 - initial version.

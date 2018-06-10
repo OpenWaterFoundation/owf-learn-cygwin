@@ -43,12 +43,18 @@ This documentation is not intended to be a full reference for Cygwin but focuses
 will help understand technical concepts and be successful using Cygwin.
 The following main sections are included in this documentation:
 
-* [Install Cygwin](install) - explanation of how to install Cygwin
-* [User Environment](user) - information about a user's home folder and environment
-* [Cygwin/Windows Integration](cygwin-windows) - information about Cygwin and Windows are integrated
-* [Using Cygwin Command Line](using-cygwin-cl) - using the Cygwin command line terminal shell
-* [Using Cygwin X Windows](using-cygwin-xwin) - using the Cygwin command line terminal shell
-* [Resources](resources) - useful resources
+* [Install Cygwin](install/install) - explanation of how to install Cygwin
+* [User Environment](user-env/user-env) - information about a user's home folder and environment
+* [Cygwin/Windows Integration](cygwin-windows/cygwin-windows) - information about Cygwin and Windows are integrated
+* [Using Cygwin Command Line](using-cygwin-cl/using-cygwin-cl) - using the Cygwin command line terminal shell
+* [Using Cygwin X Windows](using-cygwin-xwin/using-cygwin-xwin) - using the Cygwin command line terminal shell
+* [Using Cygwin as Development Environment](cygwin-dev-env/cygwin-dev-env) - topics related to software development
+* [Troubleshooting](troubleshooting/troubleshooting) - troubleshooting help
+* [Resources](resources/resources) - useful resources
+
+Use the menu on the left to navigate to pages within the documentation.
+Use the menu on the right to navigate to sections within a page.
+Menus may be compressed into an icon if the page size is small, such as on a mobile device.
 
 ## License ##
 
@@ -61,5 +67,4 @@ The source files for this documentation are maintained in a GitHub repository:  
 
 ## Release Notes ##
 
-This documentation was last updated 2017-11-04.
 See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-cygwin#release-notes).

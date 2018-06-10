@@ -1,4 +1,4 @@
-# Learn Cygwin / Cygwin/Windows Integration #
+# Learn Cygwin / Cygwin / Windows Integration #
 
 Cygwin software is compiled to run on Windows and Windows programs can also be run from within Cygwin.
 Some basic conventions are implemented to allow this integration.
