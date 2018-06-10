@@ -1,7 +1,7 @@
 # Learn Cygwin / User Environment #
 
 The Cygwin user environment provides a convenient environment for performing computing tasks,
-including software development and process automation.  See the [Using Cygwin Command Line](using-cygwin-cl) section
+including software development and process automation.  See the [Using Cygwin Command Line](../using-cygwin-cl/using-cygwin-cl) section
 for information about starting a command line terminal window.
 
 In the following discussion the tilde (`~`) is used to indicate the home folder.
@@ -10,6 +10,7 @@ where the leading period by default indicates hidden files on Linux (file will b
 
 The remainder of this page includes the following sections:
 
+* [First Terminal Session](#first-terminal-session)
 * [Basic Environment Information](#basic-environment-information)
 * [Settings for `mintty` Terminal](#settings-for-mintty-terminal)
 * [Settings for `rxvt` Terminal](#settings-for-rxvt-terminal)
@@ -18,14 +19,40 @@ The remainder of this page includes the following sections:
 
 ---------
 
+# First Terminal Session #
+
+The first terminal session that is opened with the ***Cygwin64 Terminal*** desktop icon or ***Start*** menu
+may show information similar to the following.
+
+![First terminal](images/first-terminal.png)
+
+The indicated files are the primary files that should be modified to customize a user's environment.
+
+* `.bash_profile` - is executed for for login shells (such as Cygwin terminal)
+* `.bashrc` - is executed for interactive non-logic shells and when running a shell script
+(this file is typically "sourced" by `.bash_profile`
+* `.inputrc` - [Readline library initialization file](https://www.gnu.org/software/bash/manual/html_node/Readline-Init-File.html)
+* similar to `.bash_profile`, but used with the `sh` shell script
+
+Typing `ps` in the terminal window will list processes.
+The `bash` shell will be shown as the default shell being used and therefore `.bash_profile` and `.bashrc` apply.
+
+Additional configuration of the user environment can occur by modifying the above, and other hidden files.
+**Need to put examples here of common things that might be done.**
+
 ## Basic Environment Information ##
 
-The following are basic environment information:
+The following is basic environment information for user files:
 
 * The user's home folder if Cygwin is installed under `C:\cygwin64` will be `C:\cygwin64\home\username`.
 * The user's home folder when in a Cygwin terminal is `/home/username`.
-* The Windows C drive is accessed as `/cygdrive/C`.  Other drives can be accessed similarly.
-* The user's home folder using Windows drives is `/cygdrive/C/Users/WindowsUser`.
+	+ `pwd` will show `/home/username`.
+* The Windows C drive is accessed as `/cygdrive/C` or `/cygdrive/c`.  Other drives can be accessed similarly.
+* The user's home folder using Windows drive and folders convention is `/cygdrive/C/Users/WindowsUser`.
+	+ `cd C:/users/username` is also accepted but `pwd` will show `/cygdrive/c/users/username`.
+
+**Cygwin `/home/username` user files are not in the same location as Windows files.
+To avoid confusion, use `cd /cygdrive/c/Users/username` to access Windows user files.** 
 
 The `PATH` environment variable is initialized to the Windows `PATH` variable but with `/cygdrive` inserted as appropriate
 and with important Cygwin software folders added.

@@ -5,12 +5,14 @@
 site_name: OWF Learn / Cygwin
 pages:
 - Introduction: index.md
-- 'Install Cygwin': install.md
-- 'User Environment': user-env.md
-- 'Cygwin/Windows Integration': cygwin-windows.md
-- 'Using Cygwin Command Line': using-cygwin-cl.md
-- 'Using Cygwin X Windows': using-cygwin-xwin.md
-- 'Resources': resources.md
+- 'Install Cygwin': install/install.md
+- 'User Environment': user-env/user-env.md
+- 'Cygwin/Windows Integration': cygwin-windows/cygwin-windows.md
+- 'Using Cygwin Command Line': using-cygwin-cl/using-cygwin-cl.md
+- 'Using Cygwin X Windows': using-cygwin-xwin/using-cygwin-xwin.md
+- 'Using Cygwin as Development Environment': cygwin-dev-env/cygwin-dev-env.md
+- 'Troubleshooting': troubleshooting/troubleshooting.md
+- 'Resources': resources/resources.md
 # ------- configuration properties ---------------
 # Use Material theme
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
@@ -19,9 +21,9 @@ theme: material
 # Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
 # - Also see edit_uri if repo_url is specified
 #repo_url:  https://github.com/OpenWaterFoundation/owf-learn-geojson
-site_description:  'Open Water Foundation Learn Cygwin'
+site_description:  'OWF / Learn Cygwin'
 site_author:  'Open Water Foundation'
 site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
 copyright:  'Copyright Open Water Foundation'
 extra_css:
-        - 'css/extra-material-theme.css'
+- 'css/extra-material-theme.css'
