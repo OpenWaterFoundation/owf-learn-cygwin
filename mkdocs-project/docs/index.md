@@ -48,7 +48,7 @@ The following main sections are included in this documentation:
 * [Cygwin/Windows Integration](cygwin-windows/cygwin-windows) - information about Cygwin and Windows are integrated
 * [Using Cygwin Command Line](using-cygwin-cl/using-cygwin-cl) - using the Cygwin command line terminal shell
 * [Using Cygwin X Windows](using-cygwin-xwin/using-cygwin-xwin) - using the Cygwin command line terminal shell
-* [Using Cygwin as Development Environment](cygwin-dev-env/cygwin-dev-env) - topics related to software development
+* [Cygwin Development Environment](cygwin-dev-env/cygwin-dev-env) - topics related to software development
 * [Troubleshooting](troubleshooting/troubleshooting) - troubleshooting help
 * [Resources](resources/resources) - useful resources
 
