@@ -91,7 +91,7 @@ Generally only the binary is needed.  The following are recommend for considerat
 at the Open Water Foundation (may be modified later based on experience, and are listed here partly to emphasize package groups that are available).
 Packages listed in bold are those recommended for minimal use,
 for example someone using Cygwin for basic scripting and automation but not doing software development.
-Packages can always be added later.  After selecting packages to install press Next to start the download.
+Packages can always be added later (see the [Updating Software](#updating-software) section.  After selecting packages to install press ***Next >*** to start the download.
 
 **Note that some software can also be installed directly on Windows and it may be more appropriate to do so,
 especially if a large software component that needs to directly integrate with Windows.
@@ -261,7 +261,7 @@ Press ***OK*** to continue.
 
 At the end of the installation, there will be a prompt to add icons to the desktop and start menu.
 Adding to the menu is recommended and a desktop icon is convenient for starting shells.
-See other section of this documentation for additional information about user environment configuration.
+See the [User Environment](../user-env/user-env) section for additional information about user environment configuration.
 
 ## Troubleshooting Install ##
 
