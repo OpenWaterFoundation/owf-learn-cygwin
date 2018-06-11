@@ -37,7 +37,7 @@ such as Git for Windows, and then further managed using Git on Cygwin.
 
 ## Git Version Control ##
 
-The Git version control system is often used to track versions of code and other files.
+The [Git version control system](https://git-scm.com/) is often used to track versions of code and other files.
 The Git client software can be downloaded and configured through normal Cygwin install process.
 The following are issues that need to be considered when using Git on Cygwin:
 
