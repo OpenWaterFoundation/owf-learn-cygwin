@@ -9,6 +9,7 @@ The remainder of this page includes the following sections:
 
 * [Download Cygwin Installer](#download-cygwin-installer)
 * [Run the Cygwin Installer the First Time for the Initial Installation](#run-the-cygwin-installer-the-first-time-for-the-initial-installation)
+	+ [Cygwin Packages to Install](#cygwin-packages-to-install)
 * [Troubleshooting Install](#troubleshooting-install)
 * [Updating Software](#updating-software)
 
@@ -86,18 +87,25 @@ Press ***Next >*** to continue.  The following dialog will then be shown to illu
 
 ![Setup](images/InstallWizard7.png)
 
+### Cygwin Packages to Install ###
+
 By default Cygwin will install core software packages.  Use the package tree to expand and select desirable packages.
-Generally only the binary is needed.  The following are recommend for consideration in addition to the defaults for use
-at the Open Water Foundation (may be modified later based on experience, and are listed here partly to emphasize package groups that are available).
+Generally only the binary is needed.
+The following are recommendend for consideration in a technical environment where software development
+and data analysis are occurring.
 Packages listed in bold are those recommended for minimal use,
 for example someone using Cygwin for basic scripting and automation but not doing software development.
-Packages can always be added later (see the [Updating Software](#updating-software) section).  After selecting packages to install press ***Next >*** to start the download.
+Packages can always be added later (see the [Updating Software](#updating-software) section).
+After selecting packages to install press ***Next >*** to start the download.
+The selected software and necessary dependencies will be installed.
 
 **Note that some software can also be installed directly on Windows and it may be more appropriate to do so,
 especially if a large software component that needs to directly integrate with Windows.
 Windows command-line programs can be accessed from Cygwin if appropriate.  Examples include R, QGIS, databases.**
 
-Recommended software:
+Recommended software include the following.  To list categories, select the ***Category*** view in the
+***Select Packages*** window.
+Some software is listed in multiple categories (e.g., Python is listed in ***Interpreters*** and ***Python***.
 
 * Admin
 * **Archive**
@@ -147,10 +155,10 @@ Recommended software:
 	+ perl
 	+ php – for server-side web development in Apache
 	+ php-devel
-	+ **python**
-	+ **python-tkinter**
-	+ **python3**
-	+ **pytyon3-tkinter**
+	+ **python** - Python 2
+	+ **python-tkinter** - for Python 2
+	+ **python3** - Python 3
+	+ **pytyon3-tkinter** - for Python 3
 	+ ruby
 	+ ruby-doc
 	+ ruby-tcktlk
@@ -186,7 +194,10 @@ Recommended software:
 * Publishing
 * Python
 	+ see previous selections above
-	+ **python**
+	+ **python** - Python 2
+	+ **python3** - Python 3
+	+ **python3-pyqt5** - needed for Python graphical user interface programs
+	+ python3-... - other Python 3 packages may be needed by other software used with Cygwin
 	+ pylint
 * Ruby
 	+ see previous selections above
@@ -232,12 +243,12 @@ Recommended software:
 	+ **wput**
 * X11 – X Windows environment (may be needed if Linux virtual machine is not available and want to use Cygwin as display for remote logins)
 	+ tcl-tk – scripting tool to program user interfaces
-	+ xclock – useful to test whether X Windows is properly configured
+	+ **xclock** – useful to test whether X Windows is properly configured
 	+ xdpyinfo – for checking display information
-	+ xinit – program to initialize X Windows sessions (includes startxwin, needed to start the X Window server)
+	+ **xinit** – program to initialize X Windows sessions (includes startxwin, needed to start the X Window server)
 	+ xkill – kill X Windows programs and free resources
 	+ xload – program to display system load
-	+ xorg-server – X Windows server
+	+ **xorg-server** – X Windows server, needed to run graphical user interface software, such as Python UI programs
 	+ xmore – graphical “more” to page text files
 	+ xpdf – PDF viewer
 * Xfce
