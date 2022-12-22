@@ -2,7 +2,7 @@
 
 The following issues may occur.
 
-* [Permission error trying to install Python packages](#permission-error-trying-to-install-python-packages)
+*   [Permission error trying to install Python packages](#permission-error-trying-to-install-python-packages)
 
 ---------
 

@@ -2,4 +2,4 @@
 
 The following are useful Cygwin resources.
 
-* [Cygwin Install Website](https://cygwin.com/install.html)
+*   [Cygwin Install Website](https://cygwin.com/install.html)

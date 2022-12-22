@@ -9,9 +9,9 @@ An example of X Windows programs are Python scripts that use the Qt5 windowing p
 The [Open Water Foundation GeoProcessor](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/)
 software is an example of such software.
 
-* [Install X Windows Software](#install-x-windows-software)
-* [Starting the X Windows Server](#starting-the-x-windows-server)
-* [Running X Windows Programs](#running-x-windows-programs)
+*   [Install X Windows Software](#install-x-windows-software)
+*   [Starting the X Windows Server](#starting-the-x-windows-server)
+*   [Running X Windows Programs](#running-x-windows-programs)
 
 -------------------
 
